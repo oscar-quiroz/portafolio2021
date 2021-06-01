@@ -153,13 +153,21 @@ header {
 .btn {
     margin-top: 1rem;
     padding: 0.6rem 1.8rem;
-    background-color: #1179e7;
+    background-color: rgb(83, 105, 129);
     border: none;
-    border-radius: 25px;
+    border-radius: 15px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 3px solid rgb(83, 105, 129);
+    color: rgb(83, 105, 129);
+    transition: all 0.5s;
 }
 
 .hab-title {
