@@ -8,6 +8,7 @@ import { GrupoHabsComponent } from './grupo-habs/grupo-habs.component';
 import { Habilidades2Component } from './habilidades2/habilidades2.component';
 import { ListaHabsComponent } from './lista-habs/lista-habs.component';
 import { ContactComponent } from './contact/contact.component';
+import { SocialButtonsComponent } from './social-buttons/social-buttons.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactComponent } from './contact/contact.component';
     GrupoHabsComponent,
     Habilidades2Component,
     ListaHabsComponent,
-    ContactComponent
+    ContactComponent,
+    SocialButtonsComponent
   ],
   imports: [
     BrowserModule,
