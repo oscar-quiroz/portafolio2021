@@ -21,8 +21,11 @@
     border-radius: 50%;
     width: 15px;
     height: 15px;
+    cursor: pointer;
+    border: none;
 }
 
 .active {
-    background-color: teal;
+    border: 1px dashed white;
+    background-color: rgb(83, 105, 129);
 }
