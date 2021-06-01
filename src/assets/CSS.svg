@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1774B7;}
+	.st1{fill:#36A9DF;}
+	.st2{fill:none;stroke:#1774B7;stroke-width:10;stroke-miterlimit:10;}
+	.st3{fill:#B3B3B3;}
+	.st4{fill:#F6F6F8;}
+</style>
+<g id="Capa_1">
+</g>
+<g id="color_circle">
+	<g>
+		<path class="st0" d="M12.5,150c0,75.94,61.56,137.5,137.5,137.5v-275C74.06,12.5,12.5,74.06,12.5,150z"/>
+		<path class="st1" d="M150,12.5v275c75.94,0,137.5-61.56,137.5-137.5S225.94,12.5,150,12.5z"/>
+	</g>
+</g>
+<g id="circle">
+	<circle class="st2" cx="150" cy="150" r="140"/>
+</g>
+<g id="_x33_">
+	<g>
+		<polygon class="st3" points="150,66.79 70.25,66.79 73.24,97.52 148,97.52 76.33,129.18 79.08,157.43 150,157.43 		"/>
+		<polygon class="st3" points="115.57,197.77 113.48,173.82 80.67,173.82 85.36,221.93 150,240.04 150,205.96 		"/>
+		<polygon class="st4" points="226.8,97.03 226.84,96.62 226.84,66.79 150,66.79 150,157.43 187.95,157.43 184.43,197.77 
+			150,205.96 150,240.04 214.64,221.93 223.99,125.93 153.71,125.93 		"/>
+	</g>
+</g>
+</svg>

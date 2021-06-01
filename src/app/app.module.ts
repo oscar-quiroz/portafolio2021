@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
+import { GrupoHabsComponent } from './grupo-habs/grupo-habs.component';
+import { Habilidades2Component } from './habilidades2/habilidades2.component';
+import { ListaHabsComponent } from './lista-habs/lista-habs.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HabilidadesComponent,
+    GrupoHabsComponent,
+    Habilidades2Component,
+    ListaHabsComponent
   ],
   imports: [
     BrowserModule,

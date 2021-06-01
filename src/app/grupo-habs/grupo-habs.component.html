@@ -1,0 +1,16 @@
+<div class="cont">
+    <div class="habs" class="animate__animated" [ngClass]="ir">
+        <app-habilidades *ngIf="last" class="animate__animated">
+            siuuuuuuuu</app-habilidades>
+        <app-habilidades *ngIf="main" class="animate__animated">
+            siuuuuuuuu</app-habilidades>
+        <app-habilidades2 *ngIf="second" class="animate__animated">
+            siuuuuuuuu</app-habilidades2>
+    </div>
+
+    <div class="controls">
+        <button class="btn" [ngClass]="sUno" (click)="selectOne()"></button>
+        <button class="btn" [ngClass]="sDos" (click)="selectTwo()"></button>
+        <button class="btn" [ngClass]="sTres" (click)="selectThree()"></button>
+    </div>
+</div>
