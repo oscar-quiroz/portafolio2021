@@ -26,6 +26,7 @@
 }
 
 .active {
-    border: 1px dashed white;
+    border: 2px solid rgb(55, 68, 82);
     background-color: rgb(83, 105, 129);
+    transform: scale(1.3);
 }

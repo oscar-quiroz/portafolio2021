@@ -9,6 +9,7 @@ import { Habilidades2Component } from './habilidades2/habilidades2.component';
 import { ListaHabsComponent } from './lista-habs/lista-habs.component';
 import { ContactComponent } from './contact/contact.component';
 import { SocialButtonsComponent } from './social-buttons/social-buttons.component';
+import { SkillBarComponent } from './skill-bar/skill-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SocialButtonsComponent } from './social-buttons/social-buttons.componen
     Habilidades2Component,
     ListaHabsComponent,
     ContactComponent,
-    SocialButtonsComponent
+    SocialButtonsComponent,
+    SkillBarComponent
   ],
   imports: [
     BrowserModule,
