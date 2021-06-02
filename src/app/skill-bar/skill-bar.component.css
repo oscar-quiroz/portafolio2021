@@ -1,8 +1,8 @@
 .skill-bars {
     margin: auto;
-    height: 300px;
+    height: 280px;
     color: #fff;
-    padding: 25px 30px;
+    padding: 5px 20px;
     width: 80%;
     background: rgba(128, 126, 126, 0.281);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
@@ -22,8 +22,8 @@
 }
 
 .skill-bars .bar .info span {
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 300;
+    font-size: 15px;
     opacity: 0;
     animation: showText 0.5s 1s linear forwards;
 }
