@@ -10,6 +10,7 @@ import { ListaHabsComponent } from './lista-habs/lista-habs.component';
 import { ContactComponent } from './contact/contact.component';
 import { SocialButtonsComponent } from './social-buttons/social-buttons.component';
 import { SkillBarComponent } from './skill-bar/skill-bar.component';
+import { PortafolioComponent } from './portafolio/portafolio.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SkillBarComponent } from './skill-bar/skill-bar.component';
     ListaHabsComponent,
     ContactComponent,
     SocialButtonsComponent,
-    SkillBarComponent
+    SkillBarComponent,
+    PortafolioComponent
   ],
   imports: [
     BrowserModule,
