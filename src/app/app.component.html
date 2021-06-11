@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <div class="links">
+    <div class="links" [ngClass]="sobreponer">
         <ul>
             <li>
                 <a href="#main" style="--i: 0.05s">Home</a>
@@ -82,8 +82,7 @@
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
                 unde corporis dicta. Quaerat amet ullam eligendi, recusandae
-                eaque neque. Aliquam, natus assumenda soluta voluptates voluptas
-                consequatur corrupti qui saepe minus.
+                eaque neque. Aliquam,
               </p>
             </div>
 
@@ -113,7 +112,7 @@
       <header>
         <div class="overlay">
           <div class="inner animate__animated animate__backInRight">
-            <div style="padding-top: 50px">
+            <div class="contact">
               <h2 class="hab-title">Contacto</h2>
 
               <app-contact></app-contact>
@@ -134,18 +133,6 @@
               </p>
             </div>
           </div>
-          <footer>
-            <span
-              >Created By
-              <a
-                href="#"
-                style="text-decoration: none; color: rgb(78, 112, 148)"
-              >
-                Oscar Quiroz</a
-              >
-              2021. All rights reserved.
-            </span>
-          </footer>
         </div>
       </header>
     </div>
@@ -155,3 +142,13 @@
 
   <script src="app.js"></script>
 </div>
+
+<footer>
+  <span
+    >Created By
+    <a href="#" style="text-decoration: none; color: rgb(78, 112, 148)">
+      Oscar Quiroz</a
+    >
+    2021. All rights reserved.
+  </span>
+</footer>

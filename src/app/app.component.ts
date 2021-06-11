@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'portafolio2021';
   active = '';
+  sobreponer = '';
   count = 0;
 
   hamburger_menu = document.querySelector('.hamburger-menu');
@@ -16,9 +17,11 @@ export class AppComponent {
   activar() {
     if (this.count === 0) {
       this.active = 'active';
+      this.sobreponer = 'sobreponer';
       this.count += 1;
     } else {
       this.active = '';
+      this.sobreponer = '';
       this.count -= 1;
     }
   }

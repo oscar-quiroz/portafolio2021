@@ -154,3 +154,48 @@ p {
     font-size: 12px;
     text-align: start;
 }
+
+.carousel::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.carousel::-webkit-scrollbar:vertical {
+    width: 0px;
+}
+
+.carousel::-webkit-scrollbar-button:increment,
+.carousel::-webkit-scrollbar-button {
+    display: none;
+}
+
+.carousel::-webkit-scrollbar:horizontal {
+    height: 6px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background-color: rgb(83, 105, 129);
+    border-radius: 20px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .max-width {
+        width: 486px;
+    }
+    .carousel {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .controls {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .max-width {
+        width: 300px;
+    }
+}
