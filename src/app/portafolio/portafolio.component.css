@@ -26,10 +26,13 @@
     transform: translateX(-730px);
 }
 
+a {
+    transition: opacity 0.5s;
+}
+
 figure {
     background-color: rgba(128, 128, 128, 0);
     cursor: pointer;
-    transition: opacity 0.5s;
 }
 
 figcaption {
@@ -87,10 +90,10 @@ label {
     cursor: pointer;
 }
 
-#d1:checked~.card .box>figure,
-#d2:checked~.card .box>figure,
-#d3:checked~.card .box>figure,
-#d4:checked~.card .box>figure {
+#d1:checked~.card .box>a,
+#d2:checked~.card .box>a,
+#d3:checked~.card .box>a,
+#d4:checked~.card .box>a {
     opacity: 0;
 }
 
