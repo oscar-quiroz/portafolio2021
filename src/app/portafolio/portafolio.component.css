@@ -79,7 +79,8 @@ label {
 #d2,
 #d3,
 #d4,
-#d5 {
+#d5,
+#d6 {
     display: none;
 }
 
@@ -87,7 +88,8 @@ label {
 #d2:checked~.card,
 #d3:checked~.card,
 #d4:checked~.card,
-#d5:checked~.card {
+#d5:checked~.card,
+#d6:checked~.card {
     transform: rotateY(180deg);
     cursor: pointer;
 }
@@ -96,7 +98,8 @@ label {
 #d2:checked~.card .box>a,
 #d3:checked~.card .box>a,
 #d4:checked~.card .box>a,
-#d5:checked~.card .box>a {
+#d5:checked~.card .box>a,
+#d6:checked~.card .box>a {
     opacity: 0;
 }
 
