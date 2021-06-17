@@ -165,6 +165,10 @@ p {
     text-align: start;
 }
 
+.text-port {
+    font-size: 15px;
+}
+
 .carousel::-webkit-scrollbar {
     -webkit-appearance: none;
 }
