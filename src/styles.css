@@ -10,8 +10,10 @@ html {
 }
 
 body {
+    max-height: 100vh;
     font-family: "Poppins", sans-serif;
-    overflow-x: scroll;
+    background: linear-gradient(135deg, #6d7986 0%, #151a1f 74%);
+    background-size: 100% 400%;
 }
 
 body::-webkit-scrollbar {
