@@ -240,16 +240,16 @@ header {
     transform: translateX(-50%) rotate(45deg);
 }
 
-.container.active .bar {
+.bar.active {
     transform: rotate(360deg);
     background-color: transparent;
 }
 
-.container.active .bar:before {
+.bar.active:before {
     transform: translateY(0) rotate(45deg);
 }
 
-.container.active .bar:after {
+.bar.active:after {
     transform: translateY(0) rotate(-45deg);
 }
 
