@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-contact',
@@ -12,8 +13,24 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {}
 
   public sendEmail(e: Event) {
-    alert('entró');
-    console.log('entró al evento');
+    const Toast = Swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 3000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+      }
+    })
+    
+    Toast.fire({
+      icon: 'info',
+      title: 'Enviando ...'
+    })
+
+    
     e.preventDefault();
     emailjs
       .sendForm(
@@ -24,12 +41,17 @@ export class ContactComponent implements OnInit {
       )
       .then(
         (result: EmailJSResponseStatus) => {
-          console.log(result.text);
-          console.log(result, 'result solo');
-          console.log('mensaje enviado');
+          Toast.fire({
+            icon: 'success',
+            title: 'El correo se a enviado satisfactoriamente'
+          })
         },
         (error) => {
           console.log(error.text);
+          Toast.fire({
+            icon: 'error',
+            title: 'Error al enviar le correo'
+          })
         }
       );
   }
