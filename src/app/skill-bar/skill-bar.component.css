@@ -63,22 +63,22 @@
 }
 
 .bar .progress-line.html span {
-    width: 70%;
+    width: 80%;
 }
 
 .bar .progress-line.css span {
+    width: 80%;
+}
+
+.bar .progress-line.js span {
     width: 70%;
 }
 
-.bar .progress-line.jquery span {
-    width: 60%;
+.bar .progress-line.angular span {
+    width: 70%;
 }
 
-.bar .progress-line.python span {
-    width: 50%;
-}
-
-.bar .progress-line.mysql span {
+.bar .progress-line.java span {
     width: 60%;
 }
 
@@ -118,21 +118,21 @@
 }
 
 .progress-line.html span::after {
-    content: "70%";
+    content: "80%";
 }
 
 .progress-line.css span::after {
+    content: "80%";
+}
+
+.progress-line.js span::after {
     content: "70%";
 }
 
-.progress-line.jquery span::after {
-    content: "60%";
+.progress-line.angular span::after {
+    content: "70%";
 }
 
-.progress-line.python span::after {
-    content: "50%";
-}
-
-.progress-line.mysql span::after {
+.progress-line.java span::after {
     content: "60%";
 }
