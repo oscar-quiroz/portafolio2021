@@ -279,6 +279,7 @@ header {
     justify-content: center;
     align-items: center;
     transition: 1s;
+    visibility: hidden;
 }
 
 .links a {
@@ -305,6 +306,10 @@ ul {
 .sobreponer a {
     opacity: 1;
     animation: appear 0.5s forwards ease var(--i);
+}
+
+.links.sobreponer {
+    visibility: visible;
 }
 
 @keyframes appear {
